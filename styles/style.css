@@ -38,3 +38,58 @@ body {
   background-color: #006A50;
   color: white;
 }
+
+/* Banner Area */
+.main-area {
+  max-width: 1280px;
+  /* background: red; */
+  margin: 0 auto;
+}
+
+.banner {
+  height: 560px;
+  width: 100%;
+  background-color: #C6E4D6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  border-radius: 24px;
+}
+
+.banner-texts {
+  padding-top: 117px;
+  padding-bottom: 117px;
+  padding-left: 60px;
+  width: 622px;
+}
+
+.banner-subtitle {
+  font-weight: 500;
+  font-size: 24px;
+  color: rgba(14, 14, 14, 0.5);
+  margin-bottom: 16px;
+}
+
+.banner-title {
+  font-weight: bold;
+  font-size: 56px;
+  color: #0E0E0E;
+  margin-bottom: 0;
+}
+
+.hero-img {
+  height: 400px;
+}
+
+.banner-btn {
+  background-color: #006A50;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 17px 34px;
+  margin-top: 24px;
+}
