@@ -255,3 +255,45 @@ body {
 .categories-btn-3:hover {
   background: #b48414;
 }
+
+/* Speech Area*/
+.speech {
+  background: #FFFFFF;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  margin-top: 32px;
+  margin-bottom: 128px;
+}
+
+.speech-container {
+  padding: 48px 24px;
+}
+
+.qute-img {
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.speech-box {
+  z-index: 999;
+}
+
+.speech-text {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.speakers-name {
+  font-weight: 700;
+  font-size: 20px;
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 0;
+}
+
+.speakers-intro {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.6);
+  margin-top: 5px;
+}
