@@ -93,3 +93,46 @@ body {
   padding: 17px 34px;
   margin-top: 24px;
 }
+
+/* Pillars of BD */
+.pillars-of-bd {
+  margin-bottom: 80px;
+}
+
+.pillar-title {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 32px;
+}
+
+.pillars {
+  width: 300px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.pillar-img {
+  height: 62px;
+  width: 62px;
+}
+
+.pillar-subtitle {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 24px;
+  margin-bottom: 0;
+  color: #0E0E0E;
+}
+
+.pillar-description {
+  color: #0E0E0E;
+  font-size: 16px;
+}
+
+.pillar-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
