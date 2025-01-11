@@ -1,0 +1,40 @@
+body {
+  font-family: "Fira Sans", serif;
+}
+
+/* Header Nav Area */
+.hero-area {
+  max-width: 1600px;
+  height: 100px;
+}
+
+.nav-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 160px;
+  width: 100%;
+}
+
+.nav-heading {
+  font-weight: bold;
+  font-size: 30px;
+  color: #0E0E0E;
+}
+
+.nav-btn {
+  text-decoration: none;
+  color: #006A50;
+  font-weight: 600;
+  font-size: 18px;
+  border: 1px solid #006A50;
+  padding: 15px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.nav-btn:hover {
+  background-color: #006A50;
+  color: white;
+}
