@@ -297,3 +297,71 @@ body {
   color: rgba(14, 14, 14, 0.6);
   margin-top: 5px;
 }
+
+/* Table Area */
+.table-area {
+  height: 409px;
+}
+
+.table-content {
+  background: #FFFFFF;
+  padding: 32px;
+  height: 385px;
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.table-title {
+  font-weight: bold;
+  font-size: 40px;
+  color: #0E0E0E;
+}
+
+.table-content>table {
+  width: 100%;
+}
+
+.table-content>table,
+td,
+th {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-collapse: collapse;
+  padding: 24px;
+}
+
+thead {
+  background-color: rgba(198, 228, 214, 1);
+}
+
+thead,
+tr,
+th {
+  text-align: left;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+thead,
+tr,
+td {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.btn-part {
+  padding: 35px;
+}
+
+.table-btn {
+  text-decoration: none;
+  color: #0E0E0E;
+  border: 1px solid rgba(14, 14, 14, 1);
+  border-radius: 4px;
+  font-weight: 600;
+  background: #C6E4D6;
+  margin-left: 50px;
+  padding: 12px 16px;
+  font-weight: 500;
+  font-size: 16px;
+}
