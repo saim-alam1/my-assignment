@@ -575,3 +575,71 @@ td {
   background-color: #0E0E0E;
   color: #FFFFFF;
 }
+
+/* Subscribe Area */
+.subscribe-area {
+  height: 395px;
+  background: rgba(198, 228, 214, 1);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.subscribe-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.subscribe-heading {
+  font-weight: bold;
+  font-size: 40px;
+  color: rgba(14, 14, 14, 1);
+  margin-bottom: 0;
+}
+
+.subscribe-description {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+.input-button {
+  height: 56px;
+  margin-bottom: 26px;
+}
+
+.submit-email {
+  width: 600px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-left: 40px;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.3);
+  border-radius: 8px 0 0 8px;
+}
+
+.submit-btn {
+  width: 150px;
+  padding-top: 20px;
+  padding-bottom: 21px;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.3);
+  background: rgba(0, 106, 80, 1);
+  border: none;
+  color: #FFFFFF;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.submit-btn:hover {
+  background-color: #0E0E0E;
+  color: #FFFFFF;
+}
