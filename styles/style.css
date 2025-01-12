@@ -300,7 +300,7 @@ body {
 
 /* Table Area */
 .table-area {
-  height: 409px;
+  width: 100%;
 }
 
 .table-content {
@@ -310,6 +310,7 @@ body {
   width: 100%;
   border-radius: 16px;
   border: 1px solid rgba(0, 0, 0, 1);
+  width: 100%;
 }
 
 .table-title {
@@ -350,7 +351,7 @@ td {
 }
 
 .btn-part {
-  padding: 35px;
+  padding: 24px;
 }
 
 .table-btn {
@@ -364,4 +365,98 @@ td {
   padding: 12px 16px;
   font-weight: 500;
   font-size: 16px;
+  text-align: center;
+}
+
+/* News Area */
+.news-area {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.news-header {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 24px;
+  color: rgba(14, 14, 14, 1);
+}
+
+.news-description {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+
+.newses {
+  width: 100%;
+}
+
+.news {
+  display: flex;
+  justify-content: space-around;
+  padding: 48px;
+  background: #FFFFFF;
+  margin-bottom: 24px;
+  border-radius: 24px;
+}
+
+.news-img {
+  height: 306px;
+  border-radius: 24px;
+}
+
+.news-content {
+  height: 290px;
+  width: 744px;
+  margin-left: 32px;
+}
+
+.news-heading {
+  font-weight: bold;
+  font-size: 32px;
+  color: rgba(14, 14, 14, 0.8);
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.agency {
+  height: 40px;
+  margin-bottom: 0;
+}
+
+.date-time {
+  margin-top: 12px;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+.news-texts {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+.news-btn {
+  margin-top: 32px;
+  color: #FFFFFF;
+  background: rgba(0, 106, 80, 1);
+  border: none;
+  padding: 13px 26px;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.news-btn:hover {
+  background: red;
+}
+
+.news-special {
+  flex-direction: row-reverse;
+}
+
+.news-content-special {
+  margin-right: 32px;
+  margin-left: 0;
 }
