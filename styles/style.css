@@ -648,3 +648,35 @@ td {
   color: rgba(14, 14, 14, 0.7);
   font-size: 16px;
 }
+
+/* Footer Area */
+.footer {
+  max-width: 1600px;
+  height: 226px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-heading {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.footer-hr {
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  width: 1122px;
+  margin-bottom: 32px;
+}
+
+.footer-imgs {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
